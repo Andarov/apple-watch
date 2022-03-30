@@ -302,7 +302,10 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
     .freedom-calls {
-        background-image: url(../img/intro-bg@2x.jpg);
+        background-image: url("../img/intro-bg@2x.jpg");
+    }
+    .runners {
+         background-image: url("../img/runners.jpg");
     }
 
 }
